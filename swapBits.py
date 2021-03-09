@@ -1,11 +1,11 @@
 def swap_bits(num):
-    temp = ""
+    swap = ""
     for x in range(len(num)):
         if num[x] == '0':
-            temp += '1'
+            swap += '1'
         else:
-            temp += '0'
-    return temp
+            swap += '0'
+    return swap
 
 
 def one_liner(num):
